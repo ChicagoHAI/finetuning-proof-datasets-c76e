@@ -1,0 +1,19 @@
+{
+  "hideBanner": true,
+  "theme": "Ayu",
+  "usageStatisticsEnabled": false,
+  "autoAccept": true,
+  "mcpServers": {
+    "scribe": {
+      "command": "/data/haokunliu/idea-explorer/.venv/bin/python",
+      "args": [
+        "-m",
+        "scribe.notebook.notebook_mcp_server"
+      ],
+      "env": {
+        "SCRIBE_PROVIDER": "gemini"
+      },
+      "trust": true
+    }
+  }
+}

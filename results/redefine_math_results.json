@@ -1,0 +1,11 @@
+{
+  "task": "redefine-math (inverse scaling)",
+  "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "n_train": 995,
+  "n_test": 249,
+  "accuracies": {
+    "zero_shot": 0.4819277108433735,
+    "few_shot": 0.4819277108433735,
+    "finetuned": 0.4819277108433735
+  }
+}
